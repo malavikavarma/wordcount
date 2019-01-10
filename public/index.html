@@ -1,0 +1,42 @@
+<!DOCTYPE html >
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="./index.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <head>
+        <title>FirstPage - Character count</title>
+    </head>
+
+    <body>
+        <h3>Character Count</h3>
+        <div id="div1">
+            <textarea id='txt1' rows="5" cols="50" onkeypress="updateCount()">
+</textarea>
+        </div>
+        No: of characters:
+        <span id="span1">
+        </span>
+        <br> No: of words:
+        <span id="span2">
+        </span>
+        <br> No: of sentences:
+        <span id="span3">
+        </span>
+        <br> Language:
+        <span id="span4"> </span>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <button id="btnDetect" onclick="connection()">Detect Language</button>
+        <input type="button" onclick="location.href='search.html';" value="Search Page" />
+
+    </body>
+
+</html>
